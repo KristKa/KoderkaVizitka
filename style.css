@@ -18,23 +18,36 @@ body{
    font-family: "Nunito", sans-serif;
    font-weight: 400;
    font-style: normal;
+   position: relative;
 }
 
 .vizitka{
-    background-color: whitesmoke;
+    background-color: white;
     margin-top: 150px;
     width: 550px;
     position: center;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px lightslategrey;
-    
+    position: absolute;
+    left: 25%;
+}
+
+.profilepic{
+    position: absolute;
+    left: 475px;
+    top: -75px;
 }
 
 a{
     text-transform: uppercase;
     font-size: 18px;
     font-weight: bold;
+    color: white;
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+
 }
 
 h1{
@@ -51,12 +64,31 @@ img {
     border-style: solid;
     border-width: 3px;
     border-radius: 50%;
+    box-shadow: 3px 3px 3px lightslategrey;
 } 
-/*
-.Facebook
-.Twitter{
+
+.Twitter, .Facebook{
     width: 490px;
-    height: 38px;
     border-radius: 5px;
-    background-color: #3b5998;
-} */
+    margin-bottom: 5px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+} 
+
+.Twitter{
+    background-color:  #1da1f2;
+}
+
+.Twitter:active{
+    background-color:   #0b7bc1;
+} 
+
+
+.Facebook{
+    background-color:  #3b5998;
+}
+
+.Facebook:active{
+    background-color:   #2b406e;
+} 
