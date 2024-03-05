@@ -25,12 +25,12 @@ body{
     background-color: white;
     margin-top: 150px;
     width: 550px;
-    position: center;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px lightslategrey;
-    position: absolute;
-    left: 25%;
+    position: absolute; 
+    left: 35%; 
+    
 }
 
 .profilepic{
@@ -44,10 +44,9 @@ a{
     font-size: 18px;
     font-weight: bold;
     color: white;
-    margin:0;
-    padding: 0;
     text-decoration: none;
-
+    font-family: "Nunito", sans-serif;
+    /* display: block;  toto jsem měla nastavené ve chvíli, kdy jsem se odkazy snažila nastylovat rovnou jako button bez použití div-ů */
 }
 
 h1{
@@ -67,13 +66,16 @@ img {
     box-shadow: 3px 3px 3px lightslategrey;
 } 
 
-.Twitter, .Facebook{
-    width: 490px;
+/* Nevytvořila jsem zvlášť class pro společné vlastnosti tlačítek, nastavila jsem vlastnosti rovnou pro značku button*/
+
+button {
+    width: 100%;
     border-radius: 5px;
     margin-bottom: 5px;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    border-style: none;
 } 
 
 .Twitter{
