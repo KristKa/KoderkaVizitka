@@ -61,9 +61,9 @@ h1 {
     font-weight: bold;
     margin-top: 0;
     margin-bottom: 30px;
-    height: 36px;
-    /* height jsem nastavila, aby se vizuálně vyrovnal rozestup od nadpisu k hornímu okraji vizitky a dolů k textu, který je podle obrázku očekávaného výslekdu stejný */
-    line-height: normal;
+    /* height: 36px; jsem nastavila, aby se vizuálně vyrovnal rozestup od nadpisu k hornímu okraji vizitky a dolů k textu, který je podle obrázku očekávaného výslekdu stejný, 
+    ale Luděk říkal, že to nemám dělat, protože to může nést riziko. Místo toho doporučil nastavit line-height: 1*/
+    line-height: 1;
 }
 
 p {
