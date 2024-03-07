@@ -62,6 +62,7 @@ h1 {
     margin-top: 0;
     margin-bottom: 30px;
     height: 36px;
+    /* height jsem nastavila, aby se vizuálně vyrovnal rozestup od nadpisu k hornímu okraji vizitky a dolů k textu, který je podle obrázku očekávaného výslekdu stejný */
     line-height: normal;
 }
 
