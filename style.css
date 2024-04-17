@@ -1,6 +1,12 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
-html { box-sizing: border-box; }
-*, ::after, ::before { box-sizing: inherit; }
+html {
+  box-sizing: border-box;
+}
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
 
 /*
 BARVY:
@@ -14,93 +20,92 @@ tlačítko Facebook:				 #3b5998
 tlačítko Facebook aktivní: #2b406e
 */
 body {
-   background-color:  #b2bec3; 
-   font-family: "Nunito", sans-serif;
-   font-weight: 400;
-   font-style: normal;
+  background-color: #b2bec3;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .vizitka {
-    background-color: white;
-    margin-top: 150px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 550px;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px lightslategrey;
-    position: relative;  
+  background-color: white;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 550px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px lightslategrey;
+  position: relative;
 }
 
 .profilepic {
-    position: absolute;
-    left: 475px;
-    top: -75px;
-    width: 150px;
-    height: 150px;
-    border-color: white;
-    border-style: solid;
-    border-width: 3px;
-    border-radius: 50%;
-    box-shadow: 3px 3px 3px lightslategrey;
+  position: absolute;
+  left: 475px;
+  top: -75px;
+  width: 150px;
+  height: 150px;
+  border-color: white;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 3px lightslategrey;
 }
 
 a {
-    text-transform: uppercase;
-    font-size: 18px;
-    font-weight: bold;
-    color: white;
-    text-decoration: none;
-    font-family: "Nunito", sans-serif;
-    /* display: block;  - toto jsem měla nastavené ve chvíli, kdy jsem se odkazy snažila nastylovat rovnou jako button bez použití div-ů */
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  font-family: "Nunito", sans-serif;
+  /* display: block;  - toto jsem měla nastavené ve chvíli, kdy jsem se odkazy snažila nastylovat rovnou jako button bez použití div-ů */
 }
 
 h1 {
-    color: #d63031;
-    font-size: 36px;
-    font-weight: bold;
-    margin-top: 0;
-    margin-bottom: 30px;
-    /* height: 36px; jsem nastavila, aby se vizuálně vyrovnal rozestup od nadpisu k hornímu okraji vizitky a dolů k textu, který je podle obrázku očekávaného výslekdu stejný, 
+  color: #d63031;
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 30px;
+  /* height: 36px; jsem nastavila, aby se vizuálně vyrovnal rozestup od nadpisu k hornímu okraji vizitky a dolů k textu, který je podle obrázku očekávaného výslekdu stejný, 
     ale Luděk říkal, že to nemám dělat, protože to může nést riziko. Místo toho doporučil nastavit line-height: 1*/
-    line-height: 1;
+  line-height: 1;
 }
 
 p {
-    font-size: 17px; 
-    /* nastavila jsem o 1 px menší font, než bylo v zadání, protože mě rozčilovalo rozdělení textu na druhém řádku, které nezlomitelná mezera jen zhoršila  */
-    margin: 0 0 16px;
-    display: block;
-    text-align: justify;
+  font-size: 17px;
+  /* nastavila jsem o 1 px menší font, než bylo v zadání, protože mě rozčilovalo rozdělení textu na druhém řádku, které nezlomitelná mezera jen zhoršila  */
+  margin: 0 0 16px;
+  display: block;
+  text-align: justify;
 }
 
 /* Nevytvořila jsem zvlášť class pro společné vlastnosti tlačítek, nastavila jsem vlastnosti rovnou pro značku button*/
 
 button {
-    width: 100%;
-    border-radius: 5px;
-    margin-bottom: 5px;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-style: none;
-    display: block;
-} 
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-style: none;
+  display: block;
+}
 
 .Twitter {
-    background-color:  #1da1f2;
-    margin-top: 30px;
+  background-color: #1da1f2;
+  margin-top: 30px;
 }
 
 .Twitter:active {
-    background-color:   #0b7bc1;
-} 
-
+  background-color: #0b7bc1;
+}
 
 .Facebook {
-    background-color:  #3b5998;
+  background-color: #3b5998;
 }
 
 .Facebook:active {
-    background-color:   #2b406e;
-} 
+  background-color: #2b406e;
+}
